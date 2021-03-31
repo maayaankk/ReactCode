@@ -1,0 +1,11 @@
+Life Cycle Methods
+
+1. Mounting:- Are called when an instance of a component is being created and inserted into the DOM
+2. Updating:- Are called when a component is being re-rendered as a result of chages to either its props or state
+3. Unmounting:- when a component is being removed from the DOM
+4. Erro Handeling:- when there is an erro during rendering, in a lifecycle method, or in the constructor of ny child component
+
+In Mounting there are 4 methods:- constructor, static, getDerivedStateFromProps, render and componentDidMount
+In Updating there are 5 methods:- static, getDerivedStateFromProps, shouldComponentUpdate, render, getSnapShotBeforeUpdate and componentDidUpdate
+In Unmounting there is only 1 method:- componentWillUnmount
+In Error Handeling there are 2 methods:- static getDerivedStateFromError and componentDidCatch
