@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component, PureComponent } from 'react'
 import Counter from './components/Counter.jsx'
 import FetchingData from './components/FetchingData.jsx'
 import FunctionalCounter from './components/FunctionalCounter.jsx'
@@ -13,6 +13,11 @@ import ParentComponent from './components/ParentComponent.jsx'
 import ConditionalRendering from './components/ConditionalRendering.jsx'
 import ListRendering from './components/ListRendering.jsx'
 import Form from './components/Form.jsx'
+import LifeCycleA from './components/LifeCycleA.jsx'
+import Fragments from './components/Fragments.jsx'
+import Table from './components/Table.jsx'
+import PureComponents from './components/PureComponents'
+import ParentComponents from './components/ParentComponents.jsx'
 
 export default class App extends Component {
   render() {
@@ -32,7 +37,11 @@ export default class App extends Component {
         {/* <ParentComponent /> */}
         {/* <ConditionalRendering /> */}
         {/* <ListRendering /> */}
-        <Form />
+        {/* <Form /> */}
+        {/* <LifeCycleA /> */}
+        {/* <Fragments /> */}
+        {/* <Table /> */}
+        <ParentComponents />
         </div>
       </div>
     )
